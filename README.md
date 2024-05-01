@@ -22,8 +22,7 @@ This Python script automates the process of updating or adding copyright notices
 1. **Configure `file_extensions`:**  Modify the `file_extensions` dictionary to include the file extensions you want to target and their corresponding comment prefixes (e.g., '//' or '#').
 
 2. **Run the Script:**
-   ```bash
-   python copyright.py
+   `python copyright.py`
 
 
 ### Example file_extensions
