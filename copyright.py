@@ -13,7 +13,7 @@ file_extensions = {
 def update_copyright(content, comment_prefix, comment_end):
     lines = content.splitlines()  
     modified = False
-    pattern = r"{}".format(re.escape(comment_prefix + " " + copyright_string + " ")) 
+    pattern = r"{}".format(re.escape(comment_prefix + " " + copyright_string)) 
 
     for i in range(len(lines)):
         match = re.search(pattern, lines[i])
